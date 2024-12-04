@@ -1,0 +1,32 @@
+{
+  "name": "vira_tech_api",
+  "version": "1.0.0",
+  "description": "API Vira Tech project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smrTofighi/vira_tech_api.git"
+  },
+  "author": "Seyyed Mohammad RezaTofighi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smrTofighi/vira_tech_api/issues"
+  },
+  "homepage": "https://github.com/smrTofighi/vira_tech_api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.3",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
